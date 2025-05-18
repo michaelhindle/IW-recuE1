@@ -18,5 +18,97 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <form method="post">
+            <label for="nombre">Nombre:
+                <input id="nombre" type="text" name="nombre-user" value="name" >
+            </label>
+            <label for="email">Email:
+                <input id="email" type="email" name="email-user">
+            </label>
+            <label for="contraseña">Contraseña:
+                <input id="contraseña" type="password" name="contr-user">
+            </label>
+            <div class="seleccion-categoria">
+                <h4>Categoria:</h4>
+                <label>
+                    <input type="radio" name="categoria" value="personal"> Empleados
+                </label>
+                <label>
+                    <input type="radio" name="categoria" value="departamento"> Departamento
+                </label>
+            </div>
+            <div class="seleccion-empleado">
+                <p>Selecciona </p>
+                <label>
+                    <input type="checkbox" name="confidencialidad" value="confidencialidad"> Confidencialidad
+                </label>
+                <label>
+                    <input type="checkbox" name="seguridad" value="seguridad">Seguridad
+                </label>
+                <label>
+                    <input type="checkbox" name="otro-empleado" value="otro-empleado"> Otro
+                </label>
+            </div>
+            <div class="seleccion-departamento">
+                <p>En que Departamento: </p>
+                <label>
+                    <input type="radio" name="departamento" value="informatica"> Informatica
+                </label>
+                <label>
+                    <input type="radio" name="departamento" value="gestoria"> Gestoria
+                </label>
+                <label>
+                    <input type="radio" name="departamento" value="calidad"> Calidad
+                </label>
+            </div>
+            <label for="empleado">Selecciona el empleado</label>
+            <select name="empleado" id="empleado">
+                <option value="Julian">Julian Ortega</option>
+                <option value="Renata">Renata Escobar</option>
+                <option value="Paula">Paula Silvia</option>
+                <option value="Gabriel">Gabriel Torres</option>
+                <option value="Daniel">Daniel Cordero</option>
+                <option value="Jose">Jose Henandez</option>
+                <option value="Maria">Maria Perez</option>
+                <option value="Asier">Asier Fernáandez</option>
+                <option value="Aitor">Aitor Navarro</option>
+                <option value="Ane">Ane Calderon</option>
+                <option value="Kike">Kike Garcia</option>
+                <option value="Valeria">Valeria Gómez</option>
+                <option value="Mateo">Mateo Herrera</option>
+                <option value="Ana">Ana Bautista</option>
+                <option value="Sebastian">Sebastian Cabrera</option>
+            </select>
+            <div>
+                <label for="mensaje">Comentarios:</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="1"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar informe">
+        </form>
+    </main>
+    <footer>
+        <div id="top-footer">
+            <table class="tabla">
+                <tr>
+                    <th>Redes sociales</th>
+                    <th>Enlace</th>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td><a href="https://www.instagram.com/">Enlace</a></td>
+                </tr>
+                <tr>
+                    <td>Facebook</td>
+                    <td><a href="https://www.facebook.com/">Enlace</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="bot-footer">
+            <p>Ponte en contacto con un asesorador por este <a href="contacto.html">enlace</a>.</p>
+            <p>Esta pagina tiene derechos de autor por la ley de Propiedad Intelectual del Real Decreto Legislativo 1/1996, articulo 14 y 31, del 12 de abril.</p>
+        </div>
+    </footer>
 </body>
 </html>
